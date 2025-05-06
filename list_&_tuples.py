@@ -36,3 +36,44 @@ print(marks[-1:-6:-2]) # is same as marks[len(marks)-1:len(marks)-6:-1]
 
 marks = [94,93,91,96,89,95]
 print(marks[-6]) # is same as marks[0]
+
+#Methods in python
+###append() method
+# append() method is used to add an element at the end of the list
+mylst = [1,2,3,4,5]
+mylst.append(6)
+print(mylst) # [1,2,3,4,5,6]
+
+#sorting or list.sort() method, sorting means ascensing or desecending order
+mylst = [3,1,5,2,4]
+mylst.sort() # sort the list in ascending order
+print(mylst.sort()) # returns None
+print(mylst)
+
+ #Methods in python
+mylst = [3,1,5,2,4]
+mylst.append(6)
+print(mylst) # [1,2,3,4,5,6]
+
+mylst = [3,1,5,2,4]
+mylst.sort()
+print(mylst) # [1,2,3,4,5,6]
+
+mylst = [3,1,5,2,4]
+mylst.sort(reverse=True) # sort the list in descending order
+print(mylst) # [6,5,4,3,2,1]
+
+mylst = ["a","b","c","d","e"]
+mylst.reverse()
+print(mylst)
+
+mylst = [3,1,5,2,4]
+mylst.reverse()
+print(mylst)
+
+mylst = [3,1,4,8,9,2,5,7,6]
+mylst.insert(3,11) # insert 11 at index 3
+print(mylst)
+
+
+
