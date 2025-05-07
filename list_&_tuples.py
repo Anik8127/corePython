@@ -24,15 +24,15 @@
 # print(marks[ 0:4:1]) #is same as marks[0:4]
 
 # #Negative indexes
-# marks = [94,93,91,96,89,95]
-# print(marks[-1]) # is same as marks[len(marks)-1]
-# marks = [94,93,91,96,89,95]
-# print(marks[-4:-1]) 
-# #Negative indexes with step
-# marks = [94,93,91,96,89,95]
-# print(marks[-1:-4:-1]) # is same as marks[len(marks)-1:len(marks)-4:-1] or printing in reverse order
-# marks = [94,93,91,96,89,95]
-# print(marks[-1:-6:-2]) # is same as marks[len(marks)-1:len(marks)-6:-1]
+marks = [94,93,91,96,89,95]
+print(marks[-1]) # is same as marks[len(marks)-1]
+marks = [94,93,91,96,89,95]
+print(marks[-4:-1]) 
+#Negative indexes with step
+marks = [94,93,91,96,89,95]
+print(marks[-1:-4:-1]) # is same as marks[len(marks)-1:len(marks)-4:-1] or printing in reverse order
+marks = [94,93,91,96,89,95]
+print(marks[-1:-6:-2]) # is same as marks[len(marks)-1:len(marks)-6:-1]
 
 # marks = [94,93,91,96,89,95]
 # print(marks[-6]) # is same as marks[0]
@@ -150,3 +150,41 @@ if mylst1 == mylst2:
     print("List is palindrome")
 else:   
     print("List is not palindrome") 
+
+ ##OROR
+
+list = ["m","a","a","m"]
+copy_list = list.copy()
+copy_list.reverse()
+
+if copy_list == list:
+    print("List is palindrome")
+else:
+    print("List is not palindrome") 
+
+#WAP to calculate count of grade in tuple
+
+grade = ("C","D","A","A","B","B","D","A")
+print(grade.count("A")) # count the number of times A appears in the tuple
+print(grade.count("B")) # count the number of times B appears in the tuple  
+
+#Store the above values in a list and sort the list
+grade = ["C","D","A","A","B","B","D","A"]
+grade.sort()
+print(grade) # count the number of times A appears in the tuple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
