@@ -1,3 +1,14 @@
+#Dictionaries
+
+info = {"key": "values",
+"name":"Aniket",
+"age": "28",
+"gender": "male",
+
+}
+print(info)
+
+
 info = {"key": "values",
 "name":("Aniket","Garima"),
 "age": "28",
@@ -12,3 +23,12 @@ print(info)
 #keys are unique in dictionary and not repeated
 
 print(info["name"])
+
+info = {"key": "values",
+"name":("Aniket","Garima"),
+"age": "28",
+"gender": "male",
+
+}
+
+print(info["surname"]) #accessing the first element of the tuple in dictionary
