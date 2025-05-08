@@ -1,14 +1,8 @@
-info = {"key": "values",
-"name":("Aniket","Garima"),
-"age": "28",
-"gender": "male",
+#Eg. Call by Value
+def myfunc(lst):
+    lst.append(10)
+    print("Inside function:", lst)
 
-}
-print(info)
-
-#there is no order or index in dictonaries
-#so we cannot use index to access the values in dictionary
-#we can use keys to access the values in dictionary
-#keys are unique in dictionary and not repeated
-
-print(info["name"])
+lst = [1, 2, 3]
+myfunc(lst)
+print("Outside function:", lst) #Original value of lst is changed
